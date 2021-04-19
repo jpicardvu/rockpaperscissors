@@ -1,0 +1,51 @@
+html {
+  font-size: 10px;
+  background-color: darkslategrey;
+  background-size: cover;
+  color: whitesmoke;
+  font-family: sans-serif;
+}
+
+body {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translateY(-50%);
+  transform: translateX(-50%);
+  margin: auto;
+
+}
+
+header {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+.options {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+.results-header {
+  margin-top: 10px;
+  font-size: 15px;
+  color: yellow;
+  flex-direction: column;
+  align-self: flex-start;
+}
+
+.results {
+  margin-top: 10px;
+  font-size: 15px;
+  color: yellow;
+  flex-direction: column;
+  align-self: flex-start;
+}
+
+.pushed {
+  transform: scale(1.1);
+  border-color:greenyellow;
+  box-shadow: 0 0 1rem greenyellow;
+}
