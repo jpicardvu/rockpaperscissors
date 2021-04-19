@@ -26,6 +26,9 @@ header {
   display: flex;
   flex: 1;
   justify-content: center;
+  margin: 0px;
+  padding: 0px;
+  border-radius: 0px;
 }
 
 .results-header {
@@ -48,4 +51,12 @@ header {
   transform: scale(1.1);
   border-color:greenyellow;
   box-shadow: 0 0 1rem greenyellow;
+}
+
+button {
+  display: block;
+  padding: 0px;
+  background-position: center center;
+  line-height: 0; /* to remove the padding below img*/
+
 }
